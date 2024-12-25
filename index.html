@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mustafadall - Portfolio</title>
+
+    <style>
+        /* General Style */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .navbar .logo h1 {
+            font-size: 2rem;
+        }
+
+        .navbar nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar nav ul li {
+            margin: 0 15px;
+        }
+
+        .navbar nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .navbar nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        #hero {
+            background: #007BFF;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        #hero h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .cta-btn {
+            background-color: #f39c12;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1.1rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .cta-btn:hover {
+            background-color: #e67e22;
+        }
+
+        /* Section Styling */
+        .section {
+            padding: 60px 20px;
+            background-color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Services Section */
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .service {
+            width: 30%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 1.1rem;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .testimonial {
+            width: 30%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .testimonial h4 {
+            font-weight: bold;
+        }
+
+        /* Contact Form Section */
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        form label {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        form input,
+        form textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        form button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Mustafadall</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Hello, I'm Mustafadall!</h2>
+            <p>I provide creative solutions and effective projects to take your business to the next level in the digital world.</p>
+            <a href="#contact" class="cta-btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a web developer who creates user-friendly and effective web designs. I work with HTML, CSS, JavaScript, and modern web technologies to create unique projects. Every project is approached with a fresh perspective.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Design</h3>
+                    <p>I offer user-friendly and modern web design solutions.</p>
+                </div>
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>I build dynamic websites using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="service">
+                    <h3>SEO Optimization</h3>
+                    <p>I optimize your website to rank higher on search engines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>"Working with Mustafadall was amazing! Our website is fast and easy to use. I highly recommend him!"</p>
+                    <h4>Ali Yılmaz</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"His professional approach and innovative ideas helped deliver the project on time and with great quality."</p>
+                    <h4>Ayşe Demir</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Excellent results and great collaboration! He shaped my website exactly how I envisioned it."</p>
+                    <h4>Mehmet Çelik</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can reach me by filling out the form below.</p>
+            <form action="mailto:mustafa@example.com" method="post" enctype="text/plain">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mustafadall | All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
